@@ -47,6 +47,15 @@ class BlackanovaStyles {
     color: Colors.black,
   ));
 
+  TextStyle alegreyaSubTitleForAlertDialog = GoogleFonts.alegreya(
+      textStyle: const TextStyle(
+        fontSize: 20.0,
+        wordSpacing: 1,
+        letterSpacing: 1.2,
+        fontWeight: FontWeight.bold,
+        color: Colors.blue,
+      ));
+
   TextStyle alegreyaTitle = GoogleFonts.alegreya(
       textStyle: const TextStyle(
     fontSize: 50.0,
