@@ -55,6 +55,8 @@ dependencies:
   font_awesome_flutter: ^10.1.0
   firebase_messaging: ^14.1.0
   google_fonts: ^3.0.1
+  intl_phone_number_input: ^0.7.1
+  country_codes: ^2.2.0
 
 
 
