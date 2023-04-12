@@ -29,7 +29,7 @@ class Title {
 }
 
 class BlackanovaStyles {
-  TextStyle alegreyaFieldTitle = GoogleFonts.alegreya(
+  TextStyle alegreyaFieldTitle = GoogleFonts.poppins(
       textStyle: const TextStyle(
     fontSize: 15,
     wordSpacing: 1,
@@ -38,7 +38,7 @@ class BlackanovaStyles {
     color: Colors.grey,
   ));
 
-  TextStyle alegreyaSubTitle = GoogleFonts.alegreya(
+  TextStyle alegreyaSubTitle = GoogleFonts.poppins(
       textStyle: const TextStyle(
     fontSize: 20.0,
     wordSpacing: 1,
@@ -47,7 +47,7 @@ class BlackanovaStyles {
     color: Colors.black,
   ));
 
-  TextStyle alegreyaSubTitleForAlertDialog = GoogleFonts.alegreya(
+  TextStyle alegreyaSubTitleForAlertDialog = GoogleFonts.poppins(
       textStyle: const TextStyle(
         fontSize: 20.0,
         wordSpacing: 1,
@@ -56,7 +56,13 @@ class BlackanovaStyles {
         color: Colors.blue,
       ));
 
-  TextStyle alegreyaTitle = GoogleFonts.alegreya(
+  TextStyle regularPoppins = GoogleFonts.poppins(
+      textStyle: const TextStyle(
+        fontSize: 18.0,
+        color: Colors.black,
+      ));
+
+  TextStyle alegreyaTitle = GoogleFonts.poppins(
       textStyle: const TextStyle(
     fontSize: 50.0,
     wordSpacing: 1,
@@ -65,7 +71,7 @@ class BlackanovaStyles {
     color: Colors.black,
   ));
 
-  TextStyle alegreyaTitleButton = GoogleFonts.alegreya(
+  TextStyle alegreyaTitleButton = GoogleFonts.poppins(
       textStyle: const TextStyle(
         fontSize: 30.0,
         wordSpacing: 1,
@@ -75,7 +81,7 @@ class BlackanovaStyles {
       ));
 
 
-  TextStyle alegreya = GoogleFonts.alegreya(
+  TextStyle alegreya = GoogleFonts.poppins(
       textStyle: const TextStyle(
     fontSize: 25.0,
     wordSpacing: 1,
@@ -84,7 +90,7 @@ class BlackanovaStyles {
     color: Colors.black,
   ));
 
-  TextStyle alegreyaDescription = GoogleFonts.alegreya(
+  TextStyle alegreyaDescription = GoogleFonts.poppins(
     textStyle: const TextStyle(
       fontSize: 18.0,
       color: Colors.black,

@@ -1,13 +1,15 @@
 import 'package:blackanova/all_imprts.dart';
-import 'package:blackanova/screens/onboarding_page.dart';
+import 'package:blackanova/providers/base_model.dart';
+import 'package:blackanova/services/routers.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
+
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-
   runApp(const MyApp());
 }
 
@@ -17,7 +19,11 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MultiProvider(
+        providers: [
+          ChangeNotifierProvider(create: (context) => BaseModel())
+        ],
+      child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Blackanova',
         theme: ThemeData(
@@ -26,7 +32,9 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        home:  const OnBoardingPage()
+        initialRoute: 'start',
+        onGenerateRoute: Routers.generateRoute,
+      )
     );
   }
 }
