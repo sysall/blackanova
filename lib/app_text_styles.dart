@@ -29,31 +29,25 @@ class Title {
 }
 
 class BlackanovaStyles {
-  TextStyle alegreyaFieldTitle = GoogleFonts.poppins(
+  TextStyle poppinsFieldTitle = GoogleFonts.poppins(
       textStyle: const TextStyle(
     fontSize: 15,
-    wordSpacing: 1,
-    letterSpacing: 1.2,
     fontWeight: FontWeight.bold,
-    color: Colors.grey,
+    color: Colors.white,
   ));
 
-  TextStyle alegreyaSubTitle = GoogleFonts.poppins(
+  TextStyle poppinsSubTitle = GoogleFonts.poppins(
       textStyle: const TextStyle(
     fontSize: 20.0,
-    wordSpacing: 1,
-    letterSpacing: 1.2,
     fontWeight: FontWeight.bold,
-    color: Colors.black,
+    color: Colors.white,
   ));
 
   TextStyle alegreyaSubTitleForAlertDialog = GoogleFonts.poppins(
       textStyle: const TextStyle(
         fontSize: 20.0,
-        wordSpacing: 1,
-        letterSpacing: 1.2,
-        fontWeight: FontWeight.bold,
-        color: Colors.blue,
+        fontWeight: FontWeight.w600,
+        color: Colors.white,
       ));
 
   TextStyle regularPoppins = GoogleFonts.poppins(
@@ -62,22 +56,20 @@ class BlackanovaStyles {
         color: Colors.black,
       ));
 
-  TextStyle alegreyaTitle = GoogleFonts.poppins(
+  TextStyle poppinsTitle = GoogleFonts.poppins(
       textStyle: const TextStyle(
-    fontSize: 50.0,
-    wordSpacing: 1,
-    letterSpacing: 1.2,
+    fontSize: 40.0,
     fontWeight: FontWeight.bold,
-    color: Colors.black,
+    color: Colors.white,
   ));
 
   TextStyle alegreyaTitleButton = GoogleFonts.poppins(
       textStyle: const TextStyle(
-        fontSize: 30.0,
+        fontSize: 25.0,
         wordSpacing: 1,
         letterSpacing: 1.2,
         fontWeight: FontWeight.bold,
-        color: Colors.black,
+        color: Colors.white,
       ));
 
 
@@ -90,12 +82,10 @@ class BlackanovaStyles {
     color: Colors.black,
   ));
 
-  TextStyle alegreyaDescription = GoogleFonts.poppins(
+  TextStyle poppinsDescription = GoogleFonts.poppins(
     textStyle: const TextStyle(
-      fontSize: 18.0,
-      color: Colors.black,
-      letterSpacing: 0.7,
-      height: 1.5,
+      fontSize: 14.0,
+      color: Colors.white,
     ),
   );
 }
